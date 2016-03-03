@@ -16,7 +16,7 @@ def send_mail(info):
     subject = '新发地价格采集报告'  
     smtpserver = 'smtp.longcredit.com'  
     username = 'siyuan@longcredit.com'  
-    password = 'long88861266'
+    password = ''
 #内容配置 
     msg = MIMEText(info.encode('utf8'),_subtype = 'html',_charset ='utf-8') 
     msg['Subject'] = Header(subject, 'utf-8')  

@@ -16,7 +16,7 @@ def send_mail(info):
     subject = '采集监控报告'  
     smtpserver = 'smtp.qiye.163.com'  
     username = 'liuyanwei@longcredit.com'  
-    password = 'Heaven8366!'
+    password = ''
     touser = receiver.split(',')
 #邮件内容      
     msg = MIMEText(info,'text','utf-8') 
